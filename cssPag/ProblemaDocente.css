@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 20px;
+}
+
+table{
+    
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-Cerrar button{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #f8f9fa;
+    background-color: #6c757d;
+    padding: .7rem 1rem;
+    border: none;
+}
+
+.btn-name button{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #f8f9fa;
+    background-color: #43aa8b;
+    padding: .7rem 1rem;
+    border: none;
+}
+
+.btn-p button{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #f8f9fa;
+    background-color: #6c757d;
+    padding: .7rem 1rem;
+    border: none;
+}
+
+
+
+.btn-Agregar button{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #f8f9fa;
+    background-color: #55a630;
+    padding: .7rem 1rem;
+    border: none;
+}
+
+.btn-Modificar button{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #f8f9fa;
+    background-color: #ff9e00;
+    padding: .7rem 1rem;
+    border: none;
+}
+
+.btn-Eliminar button{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #f8f9fa;
+    background-color: #9a031e;
+    padding: .7rem 1rem;
+    border: none;
+}
+
+
+
+#menu{
+    display: flex;
+}
+
+header a, main > a {
+    text-decoration: none;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+header{
+    font-size: 1em;
+    background-color: #43aa8b;
+}
+
+header a{
+    color:#f8f9fa;
+    padding: .5rem 1rem;
+    background-color: #43aa8b;
+    display: flex;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.art-opc{
+    padding: 1px;
+    padding-top: 0;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    height: 750px;
+    width: 200px;
+    background-color: #43aa8b;
+}
+
+.art-opc button{
+    border: none;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.art-img{
+    padding: 10px;
+    background-color: #dee2e6;
+    margin: 10px;
+    margin-left: 15px;
+    flex: 1 100px;
+    display: flex;
+    flex-flow: wrap;
+    height: 730px;
+}
+
+.art-img img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+footer{
+    background-color: #dee2e6;
+    display: flex;
+    justify-content: center;
+}
+
+.div-end p{
+    text-align: center;
+}
+
+.div-end-btn{
+    display: flex;
+}
+
+.div-end-btn button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    background-color: #43aa8b;
+    border: black;
+}

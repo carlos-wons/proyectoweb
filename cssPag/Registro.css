@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 2px 2px 2px #000;  
+}
+
+#fondo{
+    
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#fondo img{
+    filter: blur(5px);
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+
+.usuario{
+    background-color: black;
+    
+    background-image: url('../imgs/user.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    padding: .5em .5em .5em 2em;
+    background-position: .2em;
+    box-shadow: 2px 2px 2px rgba(167, 14, 14,.5);
+
+    
+}
+
+
+form{
+    margin-top: 3%;
+    width: 22%;
+    padding: 24px;
+    border: #ee9b00 2px solid;
+    margin: 0px;
+
+
+   
+
+    position: relative;
+    bottom: -150px;
+    left: 360px;
+
+  
+   opacity: 0.8;
+ 
+}
+
+
+
+.password{
+    background-color: black;
+    background-image: url('../imgs/llave.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    padding: .5em .5em .5em 2em;
+    background-position: .2em;
+    box-shadow: 2px 2px 2px rgba(167, 14, 14,.5);
+}
+
+.boton{color:rgb(255, 255, 255);
+    
+}
+
+.flecha{
+
+
+    background-image: url('../imgs/flecha.png');
+    background-repeat: no-repeat;
+    background-size: 24pt;
+    
+   
+
+    
+}
+
+.iniciarsesion{
+    color: #ee9b00;
+    font-family: Arial;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.circulo{
+    margin-top: 3%;
+    width: 28%;
+    padding: 34px;
+    border: #ee9b00 2px solid;
+    margin: 20px;
+
+
+   
+
+    position: relative;
+    bottom: 258px;
+    left: 640px;
+
+  
+   opacity: 0.8;
+ 
+}
+
+
+
+.mas{
+
+
+    background-image: url('../imgs/mas.png');
+    background-repeat: no-repeat;
+    background-size: 24pt;
+    
+   
+
+    
+}
+
